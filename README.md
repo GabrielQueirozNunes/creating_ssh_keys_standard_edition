@@ -40,7 +40,7 @@ $ cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 $ ssh-add ~/.ssh/id_rsa
 ~~~
 
-## Configure the follow access rights to your files
+## Configure the following access rights to your files
 
 ~~~Bash
 $ chmod 700 ~
@@ -51,9 +51,9 @@ $ chmod 644 ~/.ssh/known_hosts
 $ chmod 644 ~/.ssh/authorized_keys
 ~~~
 
-## Congratulations! You ssh key is ready to be used. 
+## Congratulations! Your ssh key is ready to be used. 
 
-## To access the host, use the follow command
+## To access the host, use the following command
 
 ~~~Bash
 $ ssh -i /path/to/privateKeyFile -o StrictHostKeyChecking=no userThatPrivateKeyIsConfigured@host.address
@@ -63,3 +63,4 @@ $ ssh -i /path/to/privateKeyFile -o StrictHostKeyChecking=no userThatPrivateKeyI
 
 * You only can access the user that configured the SSH key.
 
+![alt text](./assets/diamond.gif)
