@@ -1,6 +1,6 @@
 ![alt text](./assets/SSH-KEY.png)
 
-# The easiest way to set your ssh key. 
+# The easiest way to set your ssh key
 
 ## Go to your user home
 
