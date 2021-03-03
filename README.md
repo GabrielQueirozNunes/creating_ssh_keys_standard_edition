@@ -64,5 +64,5 @@ $ ssh -i /path/to/privateKeyFile -o StrictHostKeyChecking=no userThatPrivateKeyI
 * You only can access the user that configured the SSH key.
 
 <p align="center">
-    <img src="./assets/diamond.gif" width="100" height="100" />
+    <img src="./assets/diamond.gif" width="60" height="60" />
 </p>
