@@ -1,4 +1,4 @@
-![alt text](./assets/SSH-KEY.png)
+![alt text](./assets/SSH-KEY.gif)
 
 # The easiest way to set your ssh key
 
