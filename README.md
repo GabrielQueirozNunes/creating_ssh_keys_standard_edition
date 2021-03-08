@@ -37,6 +37,12 @@ $ cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 ## Active the ssh agent
 
 ~~~Bash
+$ eval "$(ssh-agent -s)"
+~~~
+
+## Add your key in the agent
+
+~~~Bash
 $ ssh-add ~/.ssh/id_rsa
 ~~~
 
