@@ -49,12 +49,7 @@ $ ssh-add ~/.ssh/id_rsa
 ## Configure the following access rights to your files
 
 ~~~Bash
-$ chmod 700 ~
-$ chmod 700 ~/.ssh
-$ chmod 600 ~/.ssh/id_rsa
-$ chmod 644 ~/.ssh/id_rsa.pub
-$ chmod 644 ~/.ssh/known_hosts
-$ chmod 644 ~/.ssh/authorized_keys
+$ chmod 700 ~ && chmod 700 ~/.ssh && chmod 600 ~/.ssh/id_rsa && chmod 644 ~/.ssh/id_rsa.pub && chmod 644 ~/.ssh/known_hosts && chmod 644 ~/.ssh/authorized_keys
 ~~~
 
 ## Congratulations! Your ssh key is ready to be used. 
